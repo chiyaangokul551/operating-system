@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 #include <stdlib.h> // For exit()
 
 int main()
@@ -42,4 +42,3 @@ int main()
 	fclose(fptr2);
 	return 0;
 }
-output
