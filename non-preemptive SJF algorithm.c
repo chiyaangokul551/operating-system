@@ -32,7 +32,20 @@ int main()
         p[i]=p[pos];
         p[pos]=temp;
     }
- 
+ output
+     /tmp/m9wb28kDVV.o
+Enter number of process:3
+Enter Burst Time:
+p1:2
+p2:1
+p3:2
+Process	 Burst Time 	Waiting Time	Turnaround Time
+p2		 1		 0			1
+p1		 2		 1			3
+p3		 2		 3			5
+
+Average Waiting Time=1.333333
+Average Turnaround Time=3.000000
     wt[0]=0;
  
     //finding the waiting time of all the processes
